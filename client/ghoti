@@ -1,0 +1,30 @@
+#!/usr/bin/env groovy  
+
+def cli = new CliBuilder(usage: 'ghoti <command> [<template> <appName>]' )
+
+def options = cli.parse(args)
+
+def arguments = options.arguments()
+
+def command = arguments[0]
+
+switch( command ){
+
+	case  'list':
+		new File('list.txt').text.eachLine{ line ->
+			def (tool, description, url) = line.split('±')
+			println "$tool  - $description"
+		}
+		break;
+
+	case 'new':
+		if( arguments.size != 3 ){
+			cli.usage()
+		} else {
+
+		}
+		break
+
+	default:
+		cli.usage()
+}

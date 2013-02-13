@@ -1,6 +1,0 @@
-#!/usr/bin/env groovy  
-
-new File('list.txt').text.eachLine{ line ->
-	def (tool, description, url) = line.split('±')
-	println "$tool  - $description"
-}
