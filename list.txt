@@ -1,0 +1,2 @@
+gaelyk | https://github.com/downloads/gaelyk/gaelyk/gaelyk-template-project-1.2.zip
+ratpack | git://github.com/tlberglund/ratpack-template.git
