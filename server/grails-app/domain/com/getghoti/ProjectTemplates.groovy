@@ -7,6 +7,7 @@ class ProjectTemplates {
 	String name
 	String description
 	String url
+	Boolean approved = false
 
     static constraints = {
     	name()
