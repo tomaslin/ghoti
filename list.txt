@@ -1,2 +1,2 @@
-gaelyk | https://github.com/downloads/gaelyk/gaelyk/gaelyk-template-project-1.2.zip
-ratpack | git://github.com/tlberglund/ratpack-template.git
+gaelyk ± Gaelyk is a lightweight Groovy toolkit for Google App Engine Java ± https://github.com/downloads/gaelyk/gaelyk/gaelyk-template-project-1.2.zip
+ratpack ± A micro web framework for Groovy ± git://github.com/tlberglund/ratpack-template.git
