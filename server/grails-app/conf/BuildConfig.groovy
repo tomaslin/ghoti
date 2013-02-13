@@ -52,5 +52,6 @@ grails.project.dependency.resolution = {
         runtime ":database-migration:1.2.1"
         compile ':cache:1.0.1'
 		compile ":console:1.2"
+		compile ":recaptcha:0.5.3"
     }
 }
