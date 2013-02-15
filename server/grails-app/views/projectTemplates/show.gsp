@@ -50,6 +50,15 @@
 				</li>
 				</g:if>
 			
+				<g:if test="${projectTemplatesInstance?.approved}">
+				<li class="fieldcontain">
+					<span id="approved-label" class="property-label"><g:message code="projectTemplates.approved.label" default="Approved" /></span>
+					
+						<span class="property-value" aria-labelledby="approved-label"><g:formatBoolean boolean="${projectTemplatesInstance?.approved}" /></span>
+					
+				</li>
+				</g:if>
+			
 				<g:if test="${projectTemplatesInstance?.dateCreated}">
 				<li class="fieldcontain">
 					<span id="dateCreated-label" class="property-label"><g:message code="projectTemplates.dateCreated.label" default="Date Created" /></span>

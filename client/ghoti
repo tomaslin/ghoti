@@ -1,6 +1,25 @@
 #!/usr/bin/env groovy  
 
-def cli = new CliBuilder(usage: 'ghoti <command> [<template> <appName>]' )
+def cli = new CliBuilder()
+
+def usage = '''\
+Usage: ghoti <command> 
+
+    where <command> is new, find or list
+
+    new <boilerplate> <folder>: 
+            install the template defined in boilerplate within the folder
+            boilerplate can be:
+                 * an alias (like ratpack)
+                 * a github repo (like http://www.github.com/tomaslin/ghoti )
+                 * a file ( /Users/tomaslin/ghoti )
+
+    list: gets a list of the available boilerplates
+
+    find <search term>:
+            finds the term being searched for in the description and alias of 
+            the available boilerplates.
+''' 
 
 def options = cli.parse(args)
 
@@ -11,20 +30,17 @@ def command = arguments[0]
 switch( command ){
 
 	case  'list':
-		new File('list.txt').text.eachLine{ line ->
-			def (tool, description, url) = line.split('±')
-			println "$tool  - $description"
-		}
+		println new URL('http://www.getghoti.com/api/list.txt').text()
 		break;
 
 	case 'new':
 		if( arguments.size != 3 ){
-			cli.usage()
+			print usage
 		} else {
-
+			
 		}
 		break
 
 	default:
-		cli.usage()
+		print usage
 }

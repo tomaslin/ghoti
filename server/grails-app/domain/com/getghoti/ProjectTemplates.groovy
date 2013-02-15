@@ -14,4 +14,10 @@ class ProjectTemplates {
 		description()
 		url(url:true)
 	}
+	
+	static namedQueries = {
+       approvedTemplates {
+			eq 'approved', true
+	   }
+	}
 }

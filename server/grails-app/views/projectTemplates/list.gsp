@@ -30,6 +30,8 @@
 					
 						<g:sortableColumn property="url" title="${message(code: 'projectTemplates.url.label', default: 'Url')}" />
 					
+						<g:sortableColumn property="approved" title="${message(code: 'projectTemplates.approved.label', default: 'Approved')}" />
+					
 						<g:sortableColumn property="dateCreated" title="${message(code: 'projectTemplates.dateCreated.label', default: 'Date Created')}" />
 					
 						<g:sortableColumn property="lastUpdated" title="${message(code: 'projectTemplates.lastUpdated.label', default: 'Last Updated')}" />
@@ -45,6 +47,8 @@
 						<td>${fieldValue(bean: projectTemplatesInstance, field: "description")}</td>
 					
 						<td>${fieldValue(bean: projectTemplatesInstance, field: "url")}</td>
+					
+						<td><g:formatBoolean boolean="${projectTemplatesInstance.approved}" /></td>
 					
 						<td><g:formatDate date="${projectTemplatesInstance.dateCreated}" /></td>
 					

@@ -1,12 +1,18 @@
 package com.getghoti
 
+import grails.converters.JSON
+
 class FeedController {
 
-	void find(String projectName){
+	def index(){
+		
+	}
+
+	def find(String projectName){
 		
 	}
 	
-	void list(){
-		
+	def list(){		
+		render ProjectTemplates.approvedTemplates.list()?.sort{ it.name } as JSON
 	}
 }

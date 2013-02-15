@@ -26,3 +26,11 @@
 	<g:field type="url" name="url" value="${projectTemplatesInstance?.url}"/>
 </div>
 
+<div class="fieldcontain ${hasErrors(bean: projectTemplatesInstance, field: 'approved', 'error')} ">
+	<label for="approved">
+		<g:message code="projectTemplates.approved.label" default="Approved" />
+		
+	</label>
+	<g:checkBox name="approved" value="${projectTemplatesInstance?.approved}" />
+</div>
+
