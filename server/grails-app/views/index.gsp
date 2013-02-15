@@ -32,7 +32,6 @@
 		<dl class="tabs pill">
 		 <dd class="active"><a href="#about">About</a></dd>
 		  <dd><a href="#start">Quick Start</a></dd>
-		  <dd><a href="#list">Boilerplates</a></dd>
 		</dl>
 		<ul class="tabs-content">
 		  <li class="active" id="aboutTab">
@@ -58,7 +57,6 @@
 				
 			<h5>Enjoy!<h5>
 		  </li>
-		  <li id="listTab">Boilerplates</li>
 		 </ul>
 	<hr/>
 		</div>
@@ -66,13 +64,6 @@
 	<div class="four columns">
 		<h3>Installation</h3>
 		<p>Right click and save the client groovy file to your computer.</p>
-		<h3>Most Popular</h3>
-		<ul class="disc">
-			<li>Grails Testing Template</li>
-			<li>Gaelyk</li>
-			<li>Ratpack</li>
-			<li>DropWizard Groovy Spock Gradle</li>
-		</ul>
 		<h3>Community</h3>
 		<ul class="disc">
 			<li>Github Repo: <a href="http://git.io/ghoti">http://git.io/ghoti</a></li>
