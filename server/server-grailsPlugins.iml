@@ -42,6 +42,12 @@
       <sourceFolder url="file://$USER_HOME$/.grails/2.2.0/projects/server/plugins/jquery-1.8.3/grails-app/services" isTestSource="false" />
       <sourceFolder url="file://$USER_HOME$/.grails/2.2.0/projects/server/plugins/jquery-1.8.3/grails-app/taglib" isTestSource="false" />
     </content>
+    <content url="file://$USER_HOME$/.grails/2.2.0/projects/server/plugins/recaptcha-0.5.3">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.0/projects/server/plugins/recaptcha-0.5.3/grails-app/utils" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.0/projects/server/plugins/recaptcha-0.5.3/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.0/projects/server/plugins/recaptcha-0.5.3/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.0/projects/server/plugins/recaptcha-0.5.3/grails-app/taglib" isTestSource="false" />
+    </content>
     <content url="file://$USER_HOME$/.grails/2.2.0/projects/server/plugins/spring-security-core-1.2.7.3">
       <sourceFolder url="file://$USER_HOME$/.grails/2.2.0/projects/server/plugins/spring-security-core-1.2.7.3/src/java" isTestSource="false" />
       <sourceFolder url="file://$USER_HOME$/.grails/2.2.0/projects/server/plugins/spring-security-core-1.2.7.3/src/groovy" isTestSource="false" />

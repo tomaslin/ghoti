@@ -8,11 +8,4 @@ class FeedController {
 		
 	}
 
-	def find(String projectName){
-		
-	}
-	
-	def list(){		
-		render ProjectTemplates.approvedTemplates.list()?.sort{ it.name } as JSON
-	}
 }

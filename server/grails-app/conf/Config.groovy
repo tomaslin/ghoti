@@ -94,3 +94,7 @@ log4j = {
 grails.plugins.springsecurity.userLookup.userDomainClassName = 'com.getghoti.User'
 grails.plugins.springsecurity.userLookup.authorityJoinClassName = 'com.getghoti.UserRole'
 grails.plugins.springsecurity.authority.className = 'com.getghoti.Role'
+
+grails.plugins.springsecurity.controllerAnnotations.staticRules = [
+   '/console/**': ['ROLE_ADMIN']
+]
